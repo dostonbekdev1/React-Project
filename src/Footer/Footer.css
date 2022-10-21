@@ -1,0 +1,33 @@
+#fImage{
+     height: 155px;
+
+}
+
+li{
+    
+     text-decoration: none;
+     list-style: none;
+} 
+
+@media (max-width: 570px) {
+
+   #ulFooter li{
+          margin-top: 10px !important;
+          margin-bottom: 10px !important;
+          padding-top: 0px !important;
+          padding-bottom: 0px !important;
+         
+     }
+     #fImage{
+          height: 150px;
+          margin-left: 15% !important;
+     
+     }
+
+     #bg{
+          height: 100%;
+          padding-bottom: 0px;
+          margin-bottom: 0px !important;
+     }
+
+}

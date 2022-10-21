@@ -1,0 +1,50 @@
+#leftImg {
+     height: 90vh;
+}
+
+#best {
+     margin-left: 120px;
+     margin-top: 50px;
+     font-weight: 500;
+     font-size: 50px;
+}
+
+#paragraph {
+     font-size: 20px;
+     margin-left: 120px;
+
+}
+
+#Learn {
+     margin-top: 30px;
+     margin-left: 120px;
+
+}
+
+#Learn a {
+     text-decoration: none;
+}
+
+@media (max-width:570px) {
+     #leftImg {
+          display: none;
+     }
+
+     #best {
+          font-size: 50px;
+          margin-top: 20px;
+          margin-left: 40px;
+     }
+
+     #paragraph {
+          margin-left: 40px;
+
+     }
+
+     #Learn {
+          margin-top: 10px;
+          margin-bottom: 35px;
+          margin-left: 40px !important;
+
+     }
+}

@@ -1,0 +1,60 @@
+#card {
+     margin-top: 30px;
+     width: 20%;
+}
+
+#card:hover {
+     transform: scale(1.1);
+     transition: all 0.5s ease;
+     cursor: pointer;
+}
+
+#man {
+     margin-bottom: 20px;
+     height: 170px;
+     transition: width 2s, height 2s, background-color 2s, transform 1s;
+     width: 100%;
+     height: 180px;
+     transform: rotate(-8deg);
+     opacity: 0.6;
+
+}
+
+#man:hover {
+     cursor: pointer;
+     transform: rotate(0deg);
+     opacity: 0.9;
+
+
+
+
+}
+
+@media (max-width:570px) {
+
+     #card {
+          width: 100% !important;
+     }
+
+     #card:hover {
+          transform: scale(1);
+
+
+     }
+
+     #man {
+          width: 90%;
+          margin-left: 4%;
+          margin-top: 5%;
+          margin-right: 0px;
+          opacity: 0.8;
+     }
+
+     #man:hover {
+          transform: rotate(0deg);
+          width: 95%;
+          height: 220px;
+          margin-top: 6%;
+          opacity: 0.9;
+     }
+}

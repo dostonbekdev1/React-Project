@@ -1,0 +1,41 @@
+#container{
+     margin-bottom: 25px;
+}
+
+#col:hover{
+     cursor: pointer;
+     transform: scale(1.1);
+     transition: all 1s ease; 
+}
+
+.btn {
+     color: white !important;
+}
+
+img {
+     text-align: center;
+     justify-items: center;
+     height: 250px;
+
+}
+
+@media (max-width:570px) {
+
+     #col {
+          display: block;
+          margin-top: 25px;
+          margin-left: 10%;
+          width: max-content;
+          width: 100%;
+          display: block;
+         
+     }
+
+     #col .card{
+          width: 90% !important;
+     }
+     #col:hover{
+          cursor: pointer;
+          transform: scale(1);
+     }
+}

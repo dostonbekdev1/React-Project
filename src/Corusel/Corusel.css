@@ -1,0 +1,14 @@
+ #imgItem{
+     height: 580px;
+     
+} 
+
+@media (max-width: 570px) {
+     #imgItem{
+          background-size: cover;
+          background-position: center center !important;
+          margin-top: 0px;
+          height: 500px;
+         
+     }
+} 
